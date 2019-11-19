@@ -11,6 +11,7 @@ var bleep4 = new Audio();
 bleep4.src = "sounds/FA.wav";
 
 
+
 //Utiliser mathrandom
 let bleuJs = document.getElementById("bleu");
 let rougeJs = document.getElementById("rouge");
@@ -37,7 +38,46 @@ function myFunction() {
     else if(x == 4){
         document.getElementById("vert").style.backgroundColor = '#00ff00';
 } 
+
 }
+// bleep1.play() {
+//     bleep1.play()
+
+// }if(1 == 1) {
+//     bleep1.play()
+// }
+
+
+
+// if(x == 1) {
+//     bleep1.play();
+    
+    
+// } else if(x == 2) {
+//     bleep1.play();
+// }
+// else if(x == 3) {
+//     bleep1.play();
+// } 
+// else if(x == 4){
+//     bleep1.play();
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if (document.getElementById('bleu').style.backgroundColor != '#0000ff') {
+//     console.log('yeesdnsjdns');
+// };
 
 
 
