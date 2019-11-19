@@ -1,0 +1,150 @@
+#body {
+    margin: 0;
+    background-color: rgb(60, 52, 61);
+    
+}
+
+.titre {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+}
+
+.score {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.nbclic {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#menustats {
+    text-align: center;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    
+}
+#menustats .score {
+    margin-right: 700px;
+   
+}
+
+
+
+#intero {
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+
+#menu {
+    text-align: center;
+    margin-left: 250px;
+    margin: 0 auto;
+    letter-spacing: 40px;
+}
+
+
+
+#vert {
+    width: 300px;
+    height: 300px;
+    background: green;
+    border-top-left-radius:100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: 0 auto;
+    margin-left: 250px;
+    margin-top: -50px;
+    
+    
+}
+
+#rouge {
+    width: 300px;
+    height: 300px;
+    background: red;
+    border-top-left-radius:0;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: 0 auto;
+    margin-right: 250px;
+    margin-top: -50px;
+}
+
+#bleu {
+    width: 300px;
+    height: 300px;
+    background: blue;
+    border-top-left-radius:0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 0;
+    margin: 0 auto;
+    margin-top: 46px;
+    margin-right: 250px;
+}
+
+
+
+#jaune {
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    border-top-left-radius:0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 100%;
+    margin: 0 auto;
+    margin-top: 46px;
+    margin-left: 250px;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+
+.global {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#vert:active {
+    background-color: #00ff00;
+    transition: 0.10s;
+   
+}
+#bleu:active {
+    background-color: #00a2ff;
+    transition: 0.10s;
+   
+}
+#rouge:active {
+    background-color: #fd4e08;
+    transition: 0.10s;
+   
+}
+#jaune:active {
+    background-color: #dcfd6d;
+    transition: 0.10s;
+   
+}
