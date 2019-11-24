@@ -1,16 +1,17 @@
-var bleep1 = new Audio();
+const bleep1 = new Audio();
 bleep1.src = "sounds/DO.wav";
 
-var bleep2 = new Audio();
+const bleep2 = new Audio();
 bleep2.src = "sounds/RE.wav";
 
-var bleep3 = new Audio();
+const bleep3 = new Audio();
 bleep3.src = "sounds/MI.wav";
 
-var bleep4 = new Audio();
+const bleep4 = new Audio();
 bleep4.src = "sounds/FA.wav";
 
 
+  
 
 //Utiliser mathrandom
 let bleuJs = document.getElementById("bleu");
@@ -23,56 +24,62 @@ let vertJs = document.getElementById("vert");
 let Jouer = document.getElementById("play");
 
 
+// function myFunction() {
+//     let x = Math.floor(Math.random() * 4) + 1  
+//     if(x == 1) {
+//         document.getElementById("bleu").style.backgroundColor = '#00a2ff';
+        
+//     } else if(x == 2) {
+//         document.getElementById("rouge").style.backgroundColor = '#fd4e08';
+//     }
+//     else if(x == 3) {
+//         document.getElementById("jaune").style.backgroundColor = '#dcfd6d';
+//     } 
+//     else if(x == 4){
+//         document.getElementById("vert").style.backgroundColor = '#00ff00';
+// } 
+
+// }
+
+
+
+
 
 function myFunction() {
     let x = Math.floor(Math.random() * 4) + 1  
-    if(x == 1) {
+    switch (x){
+        case 1:
         document.getElementById("bleu").style.backgroundColor = '#00a2ff';
-        
-    } else if(x == 2) {
-        document.getElementById("rouge").style.backgroundColor = '#fd4e08';
-    }
-    else if(x == 3) {
+        break;
+        case 2:
+        document.getElementById("rouge").style.backgroundColor = '#fd4e08';   
+        break;
+        case 3:
         document.getElementById("jaune").style.backgroundColor = '#dcfd6d';
-    } 
-    else if(x == 4){
+        break;
+        case 4:
         document.getElementById("vert").style.backgroundColor = '#00ff00';
-} 
+        break;
 
+    }
+    if(bleuJs = x) {
+        console.log('On a bon');
+    }
+    
 }
-// bleep1.play() {
-//     bleep1.play()
-
-// }if(1 == 1) {
-//     bleep1.play()
-// }
 
 
-
-// if(x == 1) {
-//     bleep1.play();
+function onClick() { 
+    clicks ++; //On incrémente le score au nombre de clic sur les couleurs.
+    document.getElementById("clicks").innerHTML = clicks;
     
-    
-// } else if(x == 2) {
-//     bleep1.play();
-// }
-// else if(x == 3) {
-//     bleep1.play();
-// } 
-// else if(x == 4){
-//     bleep1.play();
-// }
+    };
 
 
-
-
-
-
-
-
-
-
-
+    document.getElementById("bleu")
+    .addEventListener('click', function (event) {
+        console.log("ca marche");
+    });
 
 
 // if (document.getElementById('bleu').style.backgroundColor != '#0000ff') {
@@ -106,17 +113,14 @@ document.getElementById("play")
             console.log("ca commence");
         });
 
-document.getElementById("bleu")
-        .addEventListener('click', function (event) {
-            console.log("ca marche");
-        });
+// document.getElementById("bleu")
+//         .addEventListener('click', function (event) {
+//             console.log("ca marche");
+//         });
 
 
 
-function onClick() { 
-    clicks ++; //On incrémente le score au nombre de clic sur les couleurs.
-    document.getElementById("clicks").innerHTML = clicks;
-    };
+
 
 
 function onClick2() {

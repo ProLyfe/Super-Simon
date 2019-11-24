@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <script src="node_modules/howler/dist/howler.js"></script>
 
     <title>Super Simon</title>
   </head>
@@ -15,7 +15,6 @@
     <nav id="intero">
       <a href="" data-toggle="modal" data-target="#exampleModal"><img src="intero.png" alt=""></a>
     </nav>
-
     <p class="titre">Super Simon</p>
     <!-- <div id="menu">
         <img src="play_icon.png" alt="" width="70" id="play">
@@ -59,7 +58,7 @@
  <div class="global">
     <div class="container">
             <div class="row">
-                <div id="vert" onmousedown="bleep1.play()" onClick="onClick()"></div>
+                <div id="vert" onmousedown="bleep1.play()" onClick="onClick()" ></div>
                 <div id="rouge" onmousedown="bleep2.play()" onClick="onClick()"></div>
             </div>
             <div class="row">
